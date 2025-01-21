@@ -18,12 +18,16 @@ class Api::CommentsController < ApplicationController
   end
 
   def create
-    comment = current_user.comments.new(comment_params)
-
+    blog = current_user.blogs.find_by(id: params[:blog_id])
+    if blog.nil?
+      render json: { error: "Blog not found or you are not authorized to view it." }, status: :not_found
+      return
+    end
+    comment = blog.comments.build(comment_params.merge(user_id: current_user.id))
     if comment.save
-      render json: { status: 'SUCCESS', message: 'Saved comment', data: comment }, status: :created
+      render json: { data: comment }, status: :created
     else
-      render json: { status: 'ERROR', message: 'Comment not saved', data: comment.errors }, status: :unprocessable_entity
+      render json: { errors: comment.errors.full_messages }, status: :unprocessable_entity
     end
   end
 
