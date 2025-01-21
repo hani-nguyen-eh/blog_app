@@ -71,6 +71,7 @@ https://github.com/user-attachments/assets/f4bb85b7-889a-4665-a6b4-f5dd51df6232
   }
 }
 ```
+<img width="1265" alt="Untitled" src="https://github.com/user-attachments/assets/00298748-e7d7-4b1c-9676-6feb26824ff3" />
 
 
 
@@ -96,6 +97,7 @@ https://github.com/user-attachments/assets/f4bb85b7-889a-4665-a6b4-f5dd51df6232
 ```
 
 
+<img width="1266" alt="Untitled" src="https://github.com/user-attachments/assets/1fceb5db-34d4-408e-8e2d-bb92d497e327" />
 
 
 **Get a Specific Blog by ID**
@@ -116,6 +118,7 @@ https://github.com/user-attachments/assets/f4bb85b7-889a-4665-a6b4-f5dd51df6232
 }
 ```
 
+<img width="1220" alt="Untitled" src="https://github.com/user-attachments/assets/e8a0c71f-d297-4e9b-9dd2-eeeb714ba283" />
 
 
 
@@ -133,6 +136,7 @@ https://github.com/user-attachments/assets/f4bb85b7-889a-4665-a6b4-f5dd51df6232
   }
 }
 ```
+<img width="1185" alt="Untitled" src="https://github.com/user-attachments/assets/95b2c4d1-afa6-4e8c-ad4e-d2bfc455a633" />
 
 
 
@@ -142,6 +146,7 @@ https://github.com/user-attachments/assets/f4bb85b7-889a-4665-a6b4-f5dd51df6232
 
 - DELETE /api/blogs/:id
 
+<img width="1250" alt="Untitled" src="https://github.com/user-attachments/assets/79f1a257-c6c5-4d01-8b05-b8c8cc659999" />
 
 
 
@@ -160,6 +165,7 @@ https://github.com/user-attachments/assets/f4bb85b7-889a-4665-a6b4-f5dd51df6232
 ```
 
 
+<img width="1269" alt="Untitled" src="https://github.com/user-attachments/assets/429643fc-b60b-4b84-a7e4-7e6c3bff23fc" />
 
 
 
@@ -182,4 +188,5 @@ https://github.com/user-attachments/assets/f4bb85b7-889a-4665-a6b4-f5dd51df6232
   ]
 }
 ```
+<img width="1258" alt="Untitled" src="https://github.com/user-attachments/assets/89d091d9-b480-4415-9192-7393750b7ef5" />
 
