@@ -1,5 +1,5 @@
 class Api::BlogsController < ApplicationController
-  skip_before_action :authenverify_authenticity_token
+  skip_before_action :verify_authenticity_token
   before_action :authenticate_user!
 
   def index
@@ -8,7 +8,7 @@ class Api::BlogsController < ApplicationController
   end
 
   def show
-    @post = current_user.blogs.find_by(id: params[:id])
+    blog = current_user.blogs.find_by(id: params[:id])
 
     if blog
       render json: { status: 'SUCCESS', message: 'Loaded blog', data: blog }, status: :ok
